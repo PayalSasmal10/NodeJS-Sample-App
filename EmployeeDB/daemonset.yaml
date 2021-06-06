@@ -2,9 +2,8 @@ apiVersion: apps/v1
 kind: DaemonSet
 metadata:
   name: employedb
-  name: devops-test
   labels:
-    k8s-app: 
+    k8s-app: devops-test
 spec:
   selector:
     matchLabels:
